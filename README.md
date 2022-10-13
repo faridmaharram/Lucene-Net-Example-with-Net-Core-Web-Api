@@ -15,3 +15,8 @@ curl --location --request PUT 'https://localhost:44346/api/lucene' \
   "age": 27,
   "gender": "Male"
 }]'
+
+
+3. Select Data 
+Postman Curl
+curl --location --request GET 'https://localhost:44346/api/lucene?searchKey=ar'
