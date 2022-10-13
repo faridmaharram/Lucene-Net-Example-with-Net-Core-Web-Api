@@ -26,7 +26,7 @@ namespace Lucene_Net_Example.Controllers
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPost]
         public IActionResult Update(List<Person> people)
         {
             var result = _luceneService.UpdateData(people);
